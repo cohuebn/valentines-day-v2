@@ -15,4 +15,4 @@ export const results = {
     'Black Panther': { url: 'https://giphy.com/embed/efKmkwIKmMhMkzInnm' },
 }
 
-export const theEnd = { url: 'https://giphy.com/embed/jUwpNzg9IcyrK' };
+export const theEnd = { url: 'https://giphy.com/embed/dzWvuSdqWvJ8j53HRO' };

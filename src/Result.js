@@ -14,7 +14,7 @@ function getAnswerDisplay(quiz, answerIndex) {
         return {
             isTheEnd,
             url: theEnd.url,
-            answerText: "That's the card. That's it. I hope you love it. Bye...",
+            answerText: "That's the card. That's it. I hope you loved it!",
             timeRequired: null
         }
     }
