@@ -1,26 +1,28 @@
 .app {
+  height: 100%;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 100%;
-    font-family: 'Lato', sans-serif;
+    background-color: #fc3468;
+    color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
 
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        background-color: #fc3468;
-        color: white;
-    }
+  footer {
+    position: fixed;
+    bottom: 1em;
+  }
 
-    footer {
-        position: fixed;
-        bottom: 1em;
-    }
-
-    button {
-        border: solid white;
-        background: transparent;
-        color: white;
-    }
+  button {
+    border: solid white;
+    background: transparent;
+    color: white;
+  }
 }
