@@ -38,7 +38,8 @@ const danceQuestion = {
     choices: {
         'Group Dancing': { },
         'Stylish Dancing': { },
-        'Laid Back Dancing': { }
+        'Laid Back Dancing': { },
+        'Crab Dancing': { }
     }
 }
 
