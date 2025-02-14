@@ -38,7 +38,7 @@ export function Result() {
 
     return (
         <main id="question">
-            <h1>Happy Valentine's Day {quiz.results.name}! I love you! Here's the card of your dreams.</h1>
+            <h1>Happy Valentine's Day {quiz.results.name}! We love you! Here's the card of your dreams.</h1>
             <h1>{answerState.answerDisplay.answerText}</h1>
             <iframe src={answerState.answerDisplay.url} width="480" height="460" frameBorder="0" className="giphy-embed" allowFullScreen allow="autoplay"></iframe>
             <p><a href="https://giphy.com/">via GIPHY</a> and <a href="https://youtube.com">YouTube</a></p>

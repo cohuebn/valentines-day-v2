@@ -10,14 +10,13 @@ export const nameQuestion = {
 };
 
 const colorQuestion = {
-    question: 'What color would you want in your card?',
+    question: 'Which food do you want in your card?',
     nextQuestion: 'animal',
     choices: {
-        'Green': { },
-        'Red': { },
-        'Purple': { },
-        'Yellow': { },
-        'Blue': { },
+        'Hot Dog': { },
+        'Pizza': { },
+        'Peanut Butter & Jelly': { },
+        'Potatoes': { },
     }
 }
 
