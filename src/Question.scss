@@ -1,0 +1,15 @@
+#question #choices {
+    display: flex;
+    flex-direction: column;
+
+    button {
+        font-size: 2em;
+        min-width: 10em;
+        margin-bottom: .5em;
+
+        &.selected {
+            background: white;
+            color: black;
+        }
+    }
+}
