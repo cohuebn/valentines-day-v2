@@ -1,6 +1,6 @@
 export const nameQuestion = {
     question: 'Who are you?',
-    nextQuestion: 'color',
+    nextQuestion: 'food',
     choices: {
         'Cesilie': { },
         'Jaxon': { },
@@ -9,11 +9,11 @@ export const nameQuestion = {
     }
 };
 
-const colorQuestion = {
+const foodQuestion = {
     question: 'Which food do you want in your card?',
     nextQuestion: 'animal',
     choices: {
-        'Hot Dog': { },
+        'Hot Dogs': { },
         'Pizza': { },
         'Peanut Butter & Jelly': { },
         'Potatoes': { },
@@ -22,38 +22,38 @@ const colorQuestion = {
 
 const animalQuestion = {
     question: 'What exotic animal do you want in your card?',
-    nextQuestion: 'who',
+    nextQuestion: 'dance',
     choices: {
-        'Giraffe': { },
-        'Capybara': { },
-        'Axolotl': { },
-        'Panda': { }
+        'A Giraffe': { },
+        'A Capybara': { },
+        'An Axolotl': { },
+        'A Panda': { }
     }
 }
 
-const whoQuestion = {
-    question: 'Who would you want in your card?',
-    nextQuestion: 'happiestToSee',
+const danceQuestion = {
+    question: 'What kind of dancing do you want in your card?',
+    nextQuestion: 'character',
     choices: {
-        'Baby Yoda': { },
-        'Bluey & Bingo': { },
-        'Dancing Grandpa': { }
+        'Group Dancing': { },
+        'Stylish Dancing': { },
+        'Laid Back Dancing': { }
     }
 }
 
-const happiestToSee = {
-    question: "What action of love would you like?",
+const characterQuestion = {
+    question: "What movie series/character theme?",
     choices: {
-        'Ballons': {},
-        'Romance': {},
-        "A simple Happy Valentines Day wish": {}
+        'Toothless': {},
+        'Jurassic World': {},
+        'Black Panther': {}
     }
 }
 
 export const questions = {
     'name': nameQuestion,
-    'happiestToSee': happiestToSee,
-    'color': colorQuestion,
+    'food': foodQuestion,
     'animal': animalQuestion,
-    'who': whoQuestion
+    'dance': danceQuestion,
+    'character': characterQuestion
 }
