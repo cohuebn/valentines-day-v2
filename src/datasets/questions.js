@@ -21,13 +21,13 @@ const colorQuestion = {
 }
 
 const animalQuestion = {
-    question: 'What kind of animal do you want in your card?',
+    question: 'What exotic animal do you want in your card?',
     nextQuestion: 'who',
     choices: {
-        'A Pig': { },
-        'A Turtle': { },
-        'A Sloth': { },
-        'A Fox': { }
+        'Giraffe': { },
+        'Capybara': { },
+        'Axolotl': { },
+        'Panda': { }
     }
 }
 
